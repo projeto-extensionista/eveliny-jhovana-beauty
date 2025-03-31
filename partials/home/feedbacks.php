@@ -7,6 +7,8 @@
 
 ?>
 
+<!-- Banner -->
+
 <section>
     <div class="container">
         <h1>Feedbacks</h1>
@@ -65,3 +67,5 @@
         </div>
     </div>
 </section>
+
+<!-- / -->
