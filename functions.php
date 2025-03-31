@@ -27,3 +27,8 @@ function enqueue_js($path = 'assets/js') {
         }
     }
 }
+
+// Incluir partial
+function get_partial($path) {
+    include("partials/$path.php");
+}

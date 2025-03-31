@@ -16,24 +16,28 @@
         <?php 
 
             // Gustavo
-            include('partials/home/banner.php');
+            get_partial('global/header');
+            get_partial('home/banner');
 
             // Derick e Luiz Guilherme
-            include('partials/home/atendimentos.php');
+            get_partial('home/atendimentos');
 
             // Diogo
-            include('partials/home/sobre-mim.php');
-            include('partials/home/ambiente.php');
+            get_partial('home/sobre-mim');
+            get_partial('home/ambiente');
 
             // Rafael
-            include('partials/home/feedbacks.php');
-            include('partials/home/mapa.php');
+            get_partial('home/feedbacks');
+            get_partial('home/mapa');
 
+            // Gustavo
+            get_partial('global/footer');
+            
         ?>
         
         <?php enqueue_js() ?>
         
     </body>
-    
+
 </html>
 
