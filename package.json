@@ -2,7 +2,7 @@
   "name": "eveliny-jhovana-beauty",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
     "publish": "git add . && git pull && git commit -m \"eveliny-jhovana-beauty\" && git push"
   },
