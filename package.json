@@ -1,0 +1,19 @@
+{
+  "name": "eveliny-jhovana-beauty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "git add . && git pull && git commit -m \"eveliny-jhovana-beauty\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projeto-extensionista/eveliny-jhovana-beauty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/projeto-extensionista/eveliny-jhovana-beauty/issues"
+  },
+  "homepage": "https://github.com/projeto-extensionista/eveliny-jhovana-beauty#readme"
+}
