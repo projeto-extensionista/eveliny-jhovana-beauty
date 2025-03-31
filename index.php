@@ -1,10 +1,12 @@
+<?php include('functions.php') ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <?php enqueue_css(); ?>
+    <?php enqueue_css() ?>
 </head>
 <body>
 
@@ -69,6 +71,7 @@
 
     <script src="assets/js/script.js"></script>
     
+    <?php enqueue_js() ?>
 </body>
 </html>
 
