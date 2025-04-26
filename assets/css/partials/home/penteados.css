@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Essa classe aplica padding lateral de 100px só no conteúdo */
+  .content {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  .header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Banner */
+  .banner {
+    background: url('/assets/img/background_penteados.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner h1 {
+    color: white;
+    font-size: 48px;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section.verde {
+    background-color: #4d664e;
+    color: white;
+  }
+  
+  .section.bege {
+    background-color: #f1e3d3;
+    color: #333;
+  }
+  
+  .section-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .text {
+    flex: 1;
+    margin-right: 40px;
+    min-width: 300px;
+  }
+  
+  .text h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+  
+  .text p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    min-width: 300px;
+  }
+  
+  .image img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+  
