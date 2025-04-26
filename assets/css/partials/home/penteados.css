@@ -91,11 +91,13 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    min-width: 300px;
   }
   
   .image img {
-    max-width: 300px;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+    image-rendering: auto;
     border-radius: 10px;
   }
   
