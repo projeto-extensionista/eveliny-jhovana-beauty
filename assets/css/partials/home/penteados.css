@@ -7,6 +7,10 @@
   body {
     font-family: Arial, sans-serif;
   }
+
+  h1 {
+    letter-spacing: 30px;
+}
   
   /* Essa classe aplica padding lateral de 100px só no conteúdo */
   .content {
@@ -70,16 +74,35 @@
     flex-wrap: wrap;
   }
   
+  /* Verde: Texto à esquerda, imagem à direita */
+  .section.verde .text {
+    order: 1;
+    margin-right: 40px;
+  }
+  
+  .section.verde .image {
+    order: 2;
+  }
+  
+  /* Bege: Imagem à esquerda, texto à direita */
+  .section.bege .image {
+    order: 1;
+    margin-right: 40px;
+  }
+  
+  .section.bege .text {
+    order: 2;
+  }
+  
   .text {
     flex: 1;
-    margin-right: 40px;
     min-width: 300px;
   }
   
   .text h2 {
     margin-bottom: 20px;
     font-size: 64px;
-    text-transform: bold;
+    font-weight: bold;
     letter-spacing: 20px;
   }
   
@@ -109,5 +132,37 @@
     padding: 20px 0;
     font-size: 14px;
     text-align: center;
+  }
+  
+  /* Responsividade para celular */
+  @media (max-width: 768px) {
+    .section-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .text, .image {
+      order: 0;
+      margin: 0;
+    }
+  
+    .image img {
+      width: 100%;
+      height: auto;
+      max-width: 400px;
+    }
+  
+    .text h2 {
+      font-size: 36px;
+      letter-spacing: 5px;
+    }
+  
+    .text p {
+      font-size: 18px;
+    }
+  
+    .content {
+      padding: 0 20px;
+    }
   }
   
