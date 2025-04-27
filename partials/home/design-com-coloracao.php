@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design com Coloração</title>
+  <link rel="stylesheet" href="design-com-coloracao.css">
+</head>
+  <body>
+    <header class="header">
+      <div class="content">
+        <a href="/index.php">
+        <img src="/assets/img/Logo preta2 1.png" alt="Logo Evelyne" class="logo">
+        </a>
+          <nav class="nav">
+              <ul>
+              <li><a href="/index.php">AGENDAMENTO</a></li>
+              </ul>
+        <div class="menu-icon">☰</div>
+      </div>
+    </header>
+    
+   <section class="banner">
+     <div class="content">
+        <h1>DESIGN COM COLORAÇÃO</h1>
+     </div>
+   </section>
+
+   <!-- Sobre o serviço -->
+   <section class ="secao verde">
+     <div class="content">
+       <div class="section-inner">
+         <div class="text">
+           <h2>COLORAÇÃO</h2>
+           <p>A coloração de sobrancelhas é um produto de alta qualidade produzido
+            especialmente para a área dos olhos. A coloração pigmenta os fios das
+            sobrancelhas, realçando o olhar com mais naturalidade e durabilidade. Com a
+            diluição e cores certa possibilita um resultado com sombra na pele, trazendo
+            mais definição para o formato das sobrancelhas
+            </p>
+         </div>
+         <div class="image">
+           <img src="/partials/home/design com coloração/design-com-coloracao-1.jpg" alt="Design com Coloração">
+         </div>
+       </div>
+     </div>
+    </section>
+    
+    <!-- Serviços e informações -->
+    <section class="secao bege">
+      <div class="content">
+        <div class="section-inner">
+          <div class="image">
+            <img src="/partials/home/design com coloração/design-com-coloracao-2.jpg" alt="Design com Coloração">
+          </div>
+          <div class="text">
+            <h2>DESIGN COM COLORAÇÃO</h2>
+            <p> Nutre, Colore, Preenche e dá volume;<br>
+                Auxilia no crescimento saudável;<br>
+                Proporciona mais brilho a cada uso;<br>
+                Pigmento dura até 45 dias nos fios;<br>
+                Pigmento dura até 7 dias na pele;<br>
+                Cobre fios brancos e loiros;<br>
+                Acabamento mais natural;<br>
+                Trás mais praticidade para a sua
+                rotina;<br>
+                
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Informações importantes -->
+    <section class="secao verde">
+      <div class="content">
+        <div class="section-inner">
+          <div class="text">
+            <h2>INFORMAÇÕES</h2>
+            <p>Contraindicada para gestantes,
+                lactantes e alérgicas a coloração;<br>
+                Duração do procedimento: até
+                30min;<br>
+                Durabilidade do design de 21 a 45
+                dias e da coloração até 45 dias.<br>
+            </p>
+          </div>
+          <div class="image">
+            <img src="/partials/home/design com coloração/design-com-coloracao-3.jpg" alt="Design com Coloração">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Informações sobre cuidados -->
+    <section class="secao bege">
+      <div class="content">
+        <div class="section-inner">
+          <div class="image">
+            <img src="/partials/home/design com coloração/design-com-coloracao-4.jpg" alt="Design com Coloração">
+          </div>
+          <div class="text">
+            <h2>CUIDADOS</h2>
+            <p>Evite lavar o rosto com água quente nas primeiras 24 horas após o procedimento;<br>
+            Não esfregue ou coce a área das sobrancelhas para evitar remoção precoce da coloração;<br>
+            Evite exposição prolongada ao sol ou uso de produtos químicos na área das sobrancelhas;<br>
+            Use produtos específicos para limpeza facial que sejam suaves e sem álcool;<br>
+            Hidrate a área regularmente para manter a pele saudável e prolongar a durabilidade da coloração;<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <div class="content">
+        <p>© 2025 Evelyn Johane Beauty - All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
