@@ -1,4 +1,4 @@
-name: Deploy via SFTP
+name: Deploy via FTP
 
 on:
   push:
@@ -6,17 +6,15 @@ on:
       - main
 
 jobs:
-  sftp-deploy:
+  ftp-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: SFTP Deploy
-        uses: appleboy/scp-action@v0.1.7
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          host: ftp.evelinyjhovanabeauty.com
+          server: ftp.evelinyjhovanabeauty.com
           username: admin@evelinyjhovanabeauty.com
           password: rUV2QlXB%l{w
-          source: "."
-          target: "/"
