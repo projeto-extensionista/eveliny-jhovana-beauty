@@ -40,7 +40,7 @@
             </p>
          </div>
          <div class="image">
-           <img src="/partials/home/design com coloração/design-com-coloracao-1.jpg" alt="Design com Coloração">
+           <img src="/assets/img/design-com-coloração/design-com-coloracao-1.jpg" alt="Design com Coloração">
          </div>
        </div>
      </div>
@@ -51,7 +51,7 @@
       <div class="content">
         <div class="section-inner">
           <div class="image">
-            <img src="/partials/home/design com coloração/design-com-coloracao-2.jpg" alt="Design com Coloração">
+            <img src="/assets/img/design-com-coloração/design-com-coloracao-2.jpg" alt="Design com Coloração">
           </div>
           <div class="text">
             <h2>DESIGN COM COLORAÇÃO</h2>
@@ -86,7 +86,7 @@
             </p>
           </div>
           <div class="image">
-            <img src="/partials/home/design com coloração/design-com-coloracao-3.jpg" alt="Design com Coloração">
+            <img src="/assets/img/design-com-coloração/design-com-coloracao-3.jpg" alt="Design com Coloração">
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@
       <div class="content">
         <div class="section-inner">
           <div class="image">
-            <img src="/partials/home/design com coloração/design-com-coloracao-4.jpg" alt="Design com Coloração">
+            <img src="//assets/img/design-com-coloração/design-com-coloracao-4.jpg" alt="Design com Coloração">
           </div>
           <div class="text">
             <h2>CUIDADOS</h2>

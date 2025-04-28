@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Design Terapeutico</title>
-  <link rel="stylesheet" href="design-terapeutico.css">
+  <link rel="stylesheet" href="/assets/css/partials/home/design-terapeutico.css">
 </head>
   <body>
     <header class="header">
@@ -44,7 +44,7 @@
             </p>
          </div>
          <div class="image">
-           <img src="/partials/home/design terapeutico/design-terapeutico-1.jpg" alt="Design Terapeutico">
+           <img src="/assets/img/designterapeutico/design-terapeutico-1.jpg" alt="Design Terapeutico">
          </div>
        </div>
      </div>
@@ -55,7 +55,7 @@
       <div class="content">
         <div class="section-inner">
           <div class="image">
-            <img src="/partials/home/design terapeutico/design-terapeutico-4.jpg" alt="Design Terapeutico">
+            <img src="/assets/img/designterapeutico/design-terapeutico-4.jpg" alt="Design Terapeutico">
           </div>
           <div class="text">
             <h2>CARINHO COM O CLIENTE</h2>
@@ -84,7 +84,7 @@
             </p>
           </div>
           <div class="image">
-            <img src="/partials/home/design terapeutico/design-terapeutico-2.jpg" alt="Design Terapeutico">
+            <img src="/assets/img/designterapeutico/design-terapeutico-2.jpg" alt="Design Terapeutico">
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@
       <div class="content">
         <div class="section-inner">
           <div class="image">
-            <img src="/partials/home/design terapeutico/design-terapeutico-3.jpg" alt="Design Terapeutico">
+            <img src="/assets/img/designterapeutico/design-terapeutico-3.jpg" alt="Design Terapeutico">
           </div>
           <div class="text">
             <h2>CUIDADOS</h2>
