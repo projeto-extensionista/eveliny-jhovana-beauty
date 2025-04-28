@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  h1 {
+    letter-spacing: 30px;
+}
+  
+  /* Essa classe aplica padding lateral de 100px só no conteúdo */
+  .content {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  .header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Banner */
+  .banner {
+    background: url('/eveliny-jhovana-beauty/assets/img/background_penteados.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner h1 {
+    color: white;
+    font-size: 48px;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section.verde {
+    background-color: #4d664e;
+    color: white;
+  }
+  
+  .section.bege {
+    background-color: #f1e3d3;
+    color: #333;
+  }
+  
+  .section-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Verde: Texto à esquerda, imagem à direita */
+  .section.verde .text {
+    order: 1;
+    margin-right: 40px;
+  }
+  
+  .section.verde .image {
+    order: 2;
+  }
+  
+  /* Bege: Imagem à esquerda, texto à direita */
+  .section.bege .image {
+    order: 1;
+    margin-right: 40px;
+  }
+  
+  .section.bege .text {
+    order: 2;
+  }
+  
+  .text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .text h2 {
+    margin-bottom: 20px;
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 20px;
+  }
+  
+  .text p {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+  
+  .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image img {
+    object-fit: cover;
+    height: 600px;
+    width: 600px;
+    image-rendering: auto;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Responsividade para celular */
+  @media (max-width: 768px) {
+    .section-inner {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .text, .image {
+      order: 0;
+      margin: 0;
+    }
+  
+    .image img {
+      width: 100%;
+      height: auto;
+      max-width: 400px;
+    }
+  
+    .text h2 {
+      font-size: 36px;
+      letter-spacing: 5px;
+    }
+  
+    .text p {
+      font-size: 18px;
+    }
+  
+    .content {
+      padding: 0 20px;
+    }
+  }
+  

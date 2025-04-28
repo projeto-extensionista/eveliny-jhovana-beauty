@@ -14,7 +14,7 @@
     <header class="header">
         <div class="content">
         <a href="/index.php">
-            <img src="/assets/img/Logo preta2 1.png" alt="Logo Evelyn Johane" class="logo">
+            <img src="/eveliny-jhovana-beauty/assets/img/Logo preta2 1.png" alt="Logo Eveliny" class="logo">
         </a>
         <div class="menu-icon">☰</div>
         </div>
@@ -22,8 +22,10 @@
 
     <?php include("pages/$page/index.html") ?>
 
-    <footer>
-
+    <footer class="footer">
+      <div class="content">
+        <p>© 2025 Evelyn Johane Beauty - All rights reserved</p>
+      </div>
     </footer>
 
     <script src="/pages/<?=$page?>/index.js"></script>

@@ -4,119 +4,109 @@
     box-sizing: border-box;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-  }
-
-  h1 {
-    letter-spacing: 30px;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
   
-  /* Essa classe aplica padding lateral de 100px só no conteúdo */
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  h1{
+    letter-spacing: 15px;
+  }
   .content {
     padding-left: 100px;
     padding-right: 100px;
   }
-  
-  /* Header */
   .header {
+    position: fixed;
+    top: 0;
+    left:  0;
+    width: 100%;
+    z-index: 1000;
     background-color: white;
-    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
-  
-  .header .content {
+  .header .content{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
   .logo {
     height: 50px;
   }
-  
   .menu-icon {
     font-size: 30px;
     cursor: pointer;
+    margin-right: 5px;
+    margin-left: 50px;
   }
-  
-  /* Banner */
   .banner {
-    background: url('/assets/img/background_penteados.png') no-repeat center center/cover;
+    background: url('/assets/img/background_folhas.png') no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;
+    background-size: cover; 
   }
-  
   .banner h1 {
     color: white;
-    font-size: 48px;
+    font-size: 38px;
   }
-  
-  /* Sections */
   .section {
     padding: 60px 0;
   }
-  
-  .section.verde {
+  .secao.verde{
     background-color: #4d664e;
     color: white;
   }
-  
-  .section.bege {
+  .secao.bege{
     background-color: #f1e3d3;
     color: #333;
   }
-  
-  .section-inner {
+  .section-inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
   }
-  
-  /* Verde: Texto à esquerda, imagem à direita */
-  .section.verde .text {
+  .secao.verde .text{
     order: 1;
     margin-right: 40px;
   }
-  
-  .section.verde .image {
+  .secao.verde .image{
     order: 2;
   }
-  
-  /* Bege: Imagem à esquerda, texto à direita */
-  .section.bege .image {
+  .select.bege .image {
     order: 1;
-    margin-right: 40px;
+    margin-left: 40px;
   }
-  
-  .section.bege .text {
+  .secao.bege .text {
     order: 2;
   }
-  
   .text {
     flex: 1;
     min-width: 300px;
   }
-  
-  .text h2 {
+  .text h1 {
     margin-bottom: 20px;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: bold;
     letter-spacing: 20px;
   }
-  
+  .text h2 {
+    margin-bottom: 20px;
+    font-size: 54px;
+    font-weight: bold;
+    letter-spacing: 20px;
+  }
   .text p {
     font-size: 24px;
     line-height: 1.6;
   }
-  
   .image {
     flex: 1;
     display: flex;
     justify-content: center;
+    margin: 80px; /* Adiciona espaçamento ao redor das imagens */
   }
-  
   .image img {
     object-fit: cover;
     height: 600px;
@@ -124,8 +114,6 @@
     image-rendering: auto;
     border-radius: 10px;
   }
-  
-  /* Footer */
   .footer {
     background-color: #333;
     color: white;
@@ -133,36 +121,22 @@
     font-size: 14px;
     text-align: center;
   }
-  
-  /* Responsividade para celular */
-  @media (max-width: 768px) {
-    .section-inner {
-      flex-direction: column;
-      text-align: center;
-    }
-    
-    .text, .image {
-      order: 0;
-      margin: 0;
-    }
-  
-    .image img {
-      width: 100%;
-      height: auto;
-      max-width: 400px;
-    }
-  
-    .text h2 {
-      font-size: 36px;
-      letter-spacing: 5px;
-    }
-  
-    .text p {
-      font-size: 18px;
-    }
-  
-    .content {
-      padding: 0 20px;
-    }
+  .nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px ;
+    letter-spacing: 10px;
+    gap: 20px;
   }
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .nav ul a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: normal;
   
+  }
