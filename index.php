@@ -1,1 +1,1 @@
-teste
+<?php include('template.php') ?>
