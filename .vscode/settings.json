@@ -2,12 +2,14 @@
     "files.exclude": {
       "**/package.json": true,
       "**/package-lock.json": true,
-      ".github/": true
+      ".github/": true,
+      ".htaccess": true
     },
     "search.exclude": {
       "**/package.json": true,
       "**/package-lock.json": true,
-      ".github/": true
+      ".github/": true,
+      ".htaccess": true
     }
   }
   
