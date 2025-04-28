@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.php",
   "scripts": {
-    "publish": "git add . && git pull && git commit -m \"eveliny-jhovana-beauty\" && git push"
+    "publish": "git add . && git pull && git commit -m \"eveliny-jhovana-beauty\" && git push",
+    "dev": "sudo docker run -d -p 8081:80 -v $(pwd):/var/www/html meu-php"
   },
   "repository": {
     "type": "git",
