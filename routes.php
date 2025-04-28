@@ -4,6 +4,8 @@
         'home',
         'penteados',
         'design-terapeutico',
+        'design-com-henna',
+        'nanopigmentacao',
         '404',
         'politica-de-atendimento'
     ];
