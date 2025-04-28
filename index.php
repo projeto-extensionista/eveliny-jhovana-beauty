@@ -1,1 +1,4 @@
-<?php include('template.php') ?>
+<?php 
+
+include('routes.php');
+include('template.php');
