@@ -55,6 +55,74 @@ h2 {
     align-items: center;
   }
   
+  .banner p {
+    color: white;
+    margin-top: 20px;
+  }
+
+  .button {
+    background-color: white; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    padding: 8px 20px; /* Espaçamento interno */
+    font-size: 9px; /* Tamanho da fonte */
+    border: none; /* Remover borda */
+    border-radius: 20px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+
+}
+.button:hover {
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+.icon {
+
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+    cursor: pointer;
+    margin-top: 60px;
+}
+/* Alinhando botão e ícones na mesma linha */
+.button-icons {
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 15px; /* Espaçamento entre os elementos */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilo para o botão */
+.button-icons .button {
+    color: black; /* Cor do texto */
+    padding: 8px 20px; /* Espaçamento interno */
+    font-size: 12px; /* Tamanho da fonte */
+    border: none; /* Remove borda */
+    border-radius: 20px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    text-decoration: none; /* Remove sublinhado */
+    display: flex;
+    align-items: center; /* Centraliza o texto verticalmente */
+    justify-content: center; /* Centraliza o texto horizontalmente */
+    height: 30px; /* Altura fixa para alinhar com os ícones */
+}
+
+/* Estilo para os ícones */
+.button-icons .icon {
+    width: 30px; /* Largura dos ícones */
+    height: 30px; /* Altura dos ícones */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: transform 0.2s ease; /* Transição suave */
+    margin-top: 0; /* Remove qualquer margem superior */
+}
+
+.button-icons .icon:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+.button-icons {
+      display: flex; /* Ativa o Flexbox */
+      align-items: center; /* Alinha verticalmente ao centro */
+      gap: 15px; /* Espaçamento entre os elementos */
+      margin-top: 20px; /* Espaçamento superior */
+  }
+
   .banner h1 {
     color: white;
     font-size: 48px;
