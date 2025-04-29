@@ -15,6 +15,6 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.evelinyjhovanabeauty.com
+          server: 108.179.193.140
           username: admin@evelinyjhovanabeauty.com
           password: rUV2QlXB%l{w
