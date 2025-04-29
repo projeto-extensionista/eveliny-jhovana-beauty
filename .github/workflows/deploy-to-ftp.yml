@@ -19,3 +19,9 @@ jobs:
           username: admin@evelinyjhovanabeauty.com
           password: rUV2QlXB%l{w
           dangerousCleanSlate: true
+          exclude: |
+            **/.git*
+            **/.vscode/**
+            **/node_modules/**
+            **/assets/icons/instagram-icon.png
+
