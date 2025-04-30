@@ -3,13 +3,15 @@
       "**/package.json": true,
       "**/package-lock.json": true,
       ".github/": true,
-      ".htaccess": true
+      ".htaccess": true,
+      ".gitignore": true
     },
     "search.exclude": {
       "**/package.json": true,
       "**/package-lock.json": true,
       ".github/": true,
-      ".htaccess": true
+      ".htaccess": true,
+      ".gitignore": true
     }
   }
   

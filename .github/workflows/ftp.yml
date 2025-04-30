@@ -1,4 +1,4 @@
-name: FTP
+name: FTP Deploy
 
 on:
   push:
@@ -9,14 +9,16 @@ jobs:
   ftp-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: 108.179.193.140
-          username: admin@evelinyjhovanabeauty.com
-          password: rUV2QlXB%l{w
-          dangerousCleanSlate: true
+      - name: Install lftp
+        run: sudo apt-get install lftp
 
+      - name: Sync files to FTP
+        run: |
+          lftp -f "
+          open ftp://admin@evelinyjhovanabeauty.com:password@108.179.193.140
+          mirror -R ./ ./public_html
+          bye
+          "
