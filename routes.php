@@ -12,3 +12,7 @@
     ]; 
 
     $page = isset($_GET["page"]) && in_array($_GET["page"], $routes) ? $_GET["page"] : '404';
+
+    var_dump($page);
+
+    exit;
