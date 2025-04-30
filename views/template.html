@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <!-- <base href="http://br722.teste.website/~eveli421/"> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="assets/css/style.min.css" />
     <link rel="shortcut icon" href="/assets/icons/fav-icon.png" type="image/x-icon">
     <title>Eveliny Jhovana Beauty</title>
 </head>
+
 <body>
-  
+
     <header class="header">
         <div class="container">
             <a href="./">
@@ -25,7 +26,7 @@
                 </button> -->
             </div>
         </div>
-    </header> 
+    </header>
 
     {{content}}
 
@@ -35,8 +36,20 @@
         </div>
     </footer>
 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 </body>
+
 </html>
