@@ -4,22 +4,22 @@
     "title": "Lorem Ipsum Dolor Sit Amet",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium  mauris quis dui porta vehicula. Nam turpis nisl, scelerisque quis  molestie id, fringilla id erat. Etiam in est non.",
     "button": {
-      "url": "#",
-      "title": "Lorem ipsum",
+      "url": "https://api.whatsapp.com/send?phone=553598454440",
+      "title": "Realizar agendamento",
       "target": "_blank"
     },
     "social": {
       "whatsapp": {
-        "icon": "assets/icons/icon-whatsapp.png",
-        "url": "#"
+        "icon": "assets/icons/icon-tiktok.png",
+        "url": "https://www.tiktok.com/@evelinyjhovanabeauty"
       },
       "instagram": {
         "icon": "assets/icons/icon-instagram.png",
-        "url": "#"
+        "url": "https://www.instagram.com/evelinyjhovanabeauty"
       },
       "facebook": {
         "icon": "assets/icons/icon-facebook.png",
-        "url": "#"
+        "url": "https://www.facebook.com/evelinyjhovanabeauty/"
       }
     }
   },
