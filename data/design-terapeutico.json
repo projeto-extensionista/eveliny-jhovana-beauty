@@ -3,18 +3,18 @@
         "title": "Design Terapêutico"
     },
     "s2": {
-        "title": "Lorem ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
-        "image": "assets/img/penteados/s1/image.png"
+        "title": "TÉCNIA",
+        "description": "Nossa técnica é mais que um design, é um tratamento para deixar suas sobrancelhas cada vez mais saudáveis e harmônicas com sua beleza natural no longo prazo. Projetamos o desenho respeitando a estrutura natural, e conversando espaços de desenvolvimento dos fios. Limpamos os pelo excedentes de maneira personalizada, mantendo o máximo de pelos essenciais.",
+        "image": "assets/img/design-terapeutico/s1/image.png"
     },
     "s3": {
-        "title": "Lorem ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
-        "image": "assets/img/penteados/s2/image.png"
+        "title": "PROCEDIMENTOS",
+        "description": "O design das sobrancelhas é feito à mão livre, seguido da remoção dos pelos com linha e/ou pinça. Utilizamos a epilação egípcia, que pode causar leve dor, mas garante um acabamento preciso e duradouro. Após a extração, aplicamos ozonioterapia por alta frequência para estimular a circulação e o crescimento dos fios. Finalizamos com massagem aromática, hidratação labial e spray calmante para acalmar a pele.",
+        "image": "assets/img/design-terapeutico/s2/image.png"
     },
     "s4": {
-        "title": "Lorem ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
-        "image": "assets/img/penteados/s3/image.png"
+        "title": "DETALHES",
+        "description": "O design de sobrancelhas é indicado para todos os gêneros, sem contraindicações. O procedimento dura cerca de 30 minutos e o resultado pode permanecer visível entre 21 e 45 dias, dependendo do crescimento dos fios e dos cuidados individuais.",
+        "image": "assets/img/design-terapeutico/s3/image.png"
     }
 }

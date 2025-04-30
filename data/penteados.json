@@ -3,18 +3,18 @@
         "title": "Penteados"
     },
     "s2": {
-        "title": "Lorem ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
+        "title": "TRANSFORMAÇÃO",
+        "description": "Transformamos seus cabelos com penteados deslumbrantes e o toque mágico do babyliss.",
         "image": "assets/img/penteados/s1/image.png"
     },
     "s3": {
-        "title": "Lorem ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
+        "title": "PREPARADA E PODEROSA",
+        "description": "Seja para um evento especial ou para se sentir ainda mais poderosa no dia a dia, nossos serviços garantem ondas perfeitas e penteados que realçam sua beleza natural.",
         "image": "assets/img/penteados/s2/image.png"
     },
     "s4": {
-        "title": "Lorem ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
+        "title": "SEU ESTILO",
+        "description": "Criamos looks que vão do sofisticado ao romântico, sempre alinhados ao seu estilo e personalidade. Descubra como nossos penteados podem transformar seu visual, proporcionando a você momentos inesquecíveis e repletos de elogios.",
         "image": "assets/img/penteados/s3/image.png"
     }
 }
