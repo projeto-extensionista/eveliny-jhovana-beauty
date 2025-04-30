@@ -39,5 +39,24 @@
     "title": "Ambientes",
     "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
     "image": "assets/img/s4/image.png"
+  },
+  "s5": {
+    "title": "Feedbacks",
+    "item-1": {
+      "title": "Diogo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium  mauris quis dui porta vehicula. Nam turpis nisl, scelerisque.",
+      "image": "assets/img/s5/item-1.png"
+    },
+    "item-2": {
+      "title": "Diogo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium  mauris quis dui porta vehicula. Nam turpis nisl, scelerisque.",
+      "image": "assets/img/s5/item-2.png"
+    },
+    "item-3": {
+      "title": "Diogo",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium  mauris quis dui porta vehicula. Nam turpis nisl, scelerisque.",
+      "image": "assets/img/s5/item-3.png"
+    }
   }
+  
 }
