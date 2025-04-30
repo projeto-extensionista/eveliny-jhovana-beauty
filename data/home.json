@@ -1,6 +1,6 @@
 {
   "s1": {
-    "image": "assets/img/s1/banner.png",
+    "image": "assets/img/home/s1/banner.png",
     "title": "Eveliny Jhovana Beauty",
     "description": "No Espaço Eveliny Jhovana Beauty, cada mulher encontra um momento dedicado a realçar sua beleza com carinho e precisão. O cuidado com as sobrancelhas vai além da estética, promovendo autoestima e empoderamento. A experiência oferecida é completa, desde o primeiro contato até o atendimento no local. Nós acreditamos no autocuidado diário como parte essencial da rotina e do bem-estar.",
     "button": {
@@ -37,29 +37,29 @@
   "s3": {
     "title": "Sobre mim",
     "description": "Sempre fui uma alma criativa, apaixonada por arte desde a infância, quando praticava pintura e se destacava na escola. Em 2014, descobri o universo da beleza ao fazer um curso de automaquiagem e comecei a atender amigas. Em 2016 iniciei minha formação profissional e, em 2018, me especializei em maquiagem visagista e colorimetria. Em 2022 encontrei uma nova paixão: o design de sobrancelhas. Desde então, me especializo em técnicas como reconstrução, brow lamination, lash lifting e nanopigmentação Flow Brows. Sou destaque em Guapé por transformar o atendimento em uma experiência única e terapêutica. Cansada dos atendimentos padrões, passei a cuidar das clientes como gostaria de ser cuidada. Criei um método próprio que une beleza, cuidado e relaxamento. Meu foco é valorizar o olhar com naturalidade e elevar a autoestima de mulheres incríveis. Meu espaço reflete minha personalidade e dedicação ao autocuidado.",
-    "image": "assets/img/s3/image.png"
+    "image": "assets/img/home/s3/image.png"
   },
   "s4": {
     "title": "Ambientes",
     "description": "FAZEMOS DO SEU HORÁRIO DE SOBRANCELHAS, UM MOMENTO DE RELAXAMENTO E CUIDADO. PROPORCIONANDO PARA VOCÊ UM SUPEREXPERIÊNCIA, QUE INCLUI: UMA EXCELENTE TÉCNICA DE DESIGN;EXTRAÇÃO SUPER RÁPIDA COM A LINHA;MASSAGEM CORPORAL NA MACA;ESPAÇO CLIMATIZADO COM AR CONDICIONADO;MÚSICA AMBIENTE E CALMANTE;CAPPUCCINO FEITO NA HORA;MASSAGEM LOCAL;AROMATERAPIA;CROMATERAPIA;OZÔNIOTERAPIA;FERRAMENTAS ESTERELIZADAS NA AUTOCLAVE;MATERIAS DE DESCARTÁVEIS E DE USO ÚNICO;",
-    "image": "assets/img/s4/image.png"
+    "image": "assets/img/home/s4/image.png"
   },
   "s5": {
     "title": "Feedbacks",
     "item-1": {
       "title": "Laysa Faria",
       "description": "É um atendimento personalizado e incrível, o cuidado e carinho da Eveliny me encantam!",
-      "image": "assets/img/s5/item-1.png"
+      "image": "assets/img/home/s5/item-1.png"
     },
     "item-2": {
       "title": "Thais Teixeira Sousa",
       "description": "Maravilhosaaaa, simplesmente amo cada detalhe, cada atendimento, o conforto e carinho que ela tem com cada cliente!",
-      "image": "assets/img/s5/item-2.png"
+      "image": "assets/img/home/s5/item-2.png"
     },
     "item-3": {
       "title": "Ana Carolina",
       "description": "Muito surreal, o melhor lugar de todos, onde vc encontra paz e aconchego!",
-      "image": "assets/img/s5/item-3.png"
+      "image": "assets/img/home/s5/item-3.png"
     }
   }
 }
