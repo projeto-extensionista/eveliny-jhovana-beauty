@@ -18,7 +18,7 @@
         </a>
         <div class="menu-icon">☰</div>
         </div>
-    </header>
+    </header> 
 
     <?php include("pages/$page/index.html") ?>
 
