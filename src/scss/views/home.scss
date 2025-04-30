@@ -78,6 +78,9 @@
             margin: 0 0 60px;
             letter-spacing: 35%;
             color: $primaryColor;
+            @media (max-width: 768px) {
+                font-size: 22px;
+            }
         }
         &__items {
             &:not(.slick-initialized) {
@@ -164,6 +167,9 @@
             display: flex;
             align-items: center;
             gap: 80px;
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
         }
         &__text {
             flex: 1;
@@ -173,6 +179,10 @@
                 margin: 0 0 40px;
                 color: $primaryColor;
                 text-transform: uppercase;
+                @media (max-width: 768px) {
+                    font-size: 22px;
+                    text-align: center;
+                }
             }
             p {
                 font-size: 16px;
@@ -200,6 +210,9 @@
             display: flex;
             align-items: center;
             gap: 80px;
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
         }
         &__text {
             flex: 1;
@@ -209,6 +222,10 @@
                 margin: 0 0 40px;
                 color: #fff;
                 text-transform: uppercase;
+                @media (max-width: 768px) {
+                    font-size: 22px;
+                    text-align: center;
+                }
             }
             p {
                 font-size: 16px;
@@ -248,10 +265,17 @@
             margin: 0 0 60px;
             letter-spacing: 35%;
             color: #fff;
+            @media (max-width: 768px) {
+                font-size: 22px;
+                text-align: center;
+            }
         }
         &__items {
             display: flex;
             gap: 60px;
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
             &__item {
                 &__top {
                     display: flex;
