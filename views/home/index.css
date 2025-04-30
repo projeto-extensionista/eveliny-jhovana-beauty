@@ -1,205 +1,43 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.banner {
+  height: 100dvh;
+}
 
-* {
+.banner .container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.banner .container h1 {
+  font-size: 64px;
+  color: #fff;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat";
 }
 
-body {
-  color: #333;
+.banner .container p {
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
 }
 
-/* Carousel Section (Atendimentos) */
-.carousel-section {
-  background-color: #F5E9D9;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.carousel-section h2 {
-  font-size: 36px;
-  color: #4A5E4D;
-  margin-bottom: 40px;
-}
-
-.carousel {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.carousel-container {
+.banner .container > div {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  align-items: center;
+  gap: 21px;
 }
 
-.carousel-item {
-  min-width: 33.33%;
+.banner .container > div > a {
+  padding: 12px 24px;
+  border-radius: 999;
+  background: #fff;
+  font-size: 24px;
+}
+
+.banner .container > div > div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   padding: 10px;
 }
 
-.carousel-item img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-}
 
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 18px;
-}
-
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
-}
-
-/* About Section (Sobre Mim) */
-.about-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #F5E9D9;
-  padding: 50px 20px;
-}
-
-.about-content {
-  max-width: 1200px;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.about-text h2 {
-  font-size: 36px;
-  color: #4A5E4D;
-  margin-bottom: 20px;
-}
-
-.about-text p {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.about-image img {
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-/* Ambiente Section */
-.ambiente-section {
-  background-color: #4d664e;
-  padding: 50px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ambiente-content {
-  max-width: 1200px;
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
-.ambiente-image img {
-  width: 500px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.ambiente-text h2 {
-  font-size: 36px;
-  color: white;
-  margin-bottom: 20px;
-}
-
-.ambiente-text p {
-  font-size: 16px;
-  color: white;
-  line-height: 1.6;
-}
-
-/* Feedback Section */
-.feedback-section {
-  background-color: #4d664e;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.feedback-section h2 {
-  font-size: 36px;
-  color: #fff;
-  margin-bottom: 40px;
-}
-
-.feedback-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.feedback-item {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 30%;
-  text-align: left;
-}
-
-.feedback-item img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.feedback-item h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
-.feedback-item .stars {
-  color: #FFD700;
-  margin-bottom: 10px;
-}
-
-.feedback-item p {
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-/* Map Section */
-.map-section {
-  background-color: #F5E9D9;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.map-section img {
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
-  border-radius: 10px;
-}
