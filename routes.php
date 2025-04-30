@@ -7,7 +7,7 @@
         'design-com-henna',
         'nanopigmentacao',
         '404',
-        'politica-de-atendimento'
+        'politica-de-atendimento',
         'make'
     ]; 
 
