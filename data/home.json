@@ -2,24 +2,24 @@
     "banner": {
       "image": "assets/img/about.jpg",
       "title": "Lorem Ipsum Dolor Sit Amet",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium  mauris quis dui porta vehicula. Nam turpis nisl, scelerisque quis  molestie id, fringilla id erat. Etiam in est non.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium  mauris quis dui porta vehicula. Nam turpis nisl, scelerisque quis  molestie id, fringilla id erat. Etiam in est non.",
       "button": {
-        "href": "#",
+        "url": "#",
         "title": "Lorem ipsum",
         "target": "_blank"
       },
       "social": [
         {
           "icon": "assets/icons/icon-whatsapp.png",
-          "href": "#"
+          "url": "#"
         },
         {
           "icon": "assets/icons/icon-instagram.png",
-          "href": "#"
+          "url": "#"
         },
         {
           "icon": "assets/icons/icon-facebook.png",
-          "href": "#"
+          "url": "#"
         }
       ]
     }
