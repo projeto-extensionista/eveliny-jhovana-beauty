@@ -5,37 +5,63 @@ namespace App;
 class App {
     public function run(): void {
         $router = new Router();
-        $page = $router->resolve($_GET['page'] ?? null);
+        $page = $router->resolve($_GET['page'] ?? 'home');
         $this->renderTemplate($page);
     }
 
     private function renderTemplate(string $page): void {
         $template = file_get_contents(__DIR__ . '/../pages/template.html');
         $content = $this->getPageContent($page);
+        $jsonData = $this->getPageData($page);
         $output = str_replace(
             ['{{page}}', '{{content}}'],
             [$page, $content],
             $template
         );
+        $output = $this->replacePlaceholdersWithJsonData($output, $jsonData);
         echo $output;
     }
 
     private function getPageContent(string $page): string {
+        $contentFilePath = __DIR__ . "/../views/$page/index.html";
+        if (file_exists($contentFilePath)) {
+            return file_get_contents($contentFilePath);
+        }
+
+        return "<h1>Página não encontrada</h1><p>Desculpe, a página solicitada não foi encontrada.</p>";
+    }
+
+    private function getPageData(string $page): array {
         $contentFilePath = __DIR__ . "/../data/$page.json";
         if (file_exists($contentFilePath)) {
-            $jsonData = json_decode(file_get_contents($contentFilePath), true);
-            if (isset($jsonData['title'], $jsonData['content'])) {
-                return $this->generateContent($jsonData);
+            return json_decode(file_get_contents($contentFilePath), true);
+        }
+
+        return [];
+    }
+
+    private function replacePlaceholdersWithJsonData(string $content, array $data): string {
+        preg_match_all('/\{\{(.*?)\}\}/', $content, $matches);
+        foreach ($matches[1] as $placeholder) {
+            $value = $this->getValueFromJson($data, $placeholder);
+            $content = str_replace("{{{$placeholder}}}", $value, $content);
+        }
+
+        return $content;
+    }
+
+    private function getValueFromJson(array $data, string $path) {
+        $keys = explode('.', $path);
+        $value = $data;
+
+        foreach ($keys as $key) {
+            if (isset($value[$key])) {
+                $value = $value[$key];
+            } else {
+                return '';
             }
         }
 
-        return "<h1>Página não encontrada</h1><p>Desculpe, a página solicitada não foi encontrada ou está com erro.</p>";
-    }
-
-    private function generateContent(array $jsonData): string {
-        $title = $jsonData['title'] ?? 'Sem título';
-        $content = $jsonData['content'] ?? 'Conteúdo não disponível';
-
-        return "<h1>$title</h1><p>$content</p>";
+        return $value;
     }
 }
