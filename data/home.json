@@ -9,7 +9,7 @@
       "target": "_blank"
     },
     "social": {
-      "whatsapp": {
+      "tiktok": {
         "icon": "assets/icons/icon-tiktok.png",
         "url": "https://www.tiktok.com/@evelinyjhovanabeauty"
       },
@@ -19,7 +19,7 @@
       },
       "facebook": {
         "icon": "assets/icons/icon-facebook.png",
-        "url": "https://www.facebook.com/evelinyjhovanabeauty/"
+        "url": "https://www.facebook.com/evelinyjhovanabeauty"
       }
     }
   },
