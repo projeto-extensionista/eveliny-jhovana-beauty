@@ -11,7 +11,7 @@ class App {
     }
 
     private function renderTemplate(string $page): void {
-        $template = file_get_contents(__DIR__ . '/../pages/_template.html');
+        $template = file_get_contents(__DIR__ . '/../pages/template.html');
         $content = file_exists(__DIR__ . "/../pages/$page/index.html")
             ? file_get_contents(__DIR__ . "/../pages/$page/index.html")
             : '';
