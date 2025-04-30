@@ -1,5 +1,7 @@
 .banner {
   height: 100dvh;
+  display: flex;
+  align-items: center;
 }
 
 .banner .container {
