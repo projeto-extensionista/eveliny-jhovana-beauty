@@ -3,10 +3,13 @@
 namespace App;
 
 class App {
+
     public function run(): void {
+        $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $page = trim($uri, '/');
         $router = new Router();
-        $page = $router->resolve($_GET['page'] ?? 'home');
-        $this->renderTemplate($page);
+        $resolvedPage = $router->resolve($page ?: 'home');
+        $this->renderTemplate($resolvedPage);
     }
 
     private function renderTemplate(string $page): void {
@@ -23,6 +26,7 @@ class App {
     }
 
     private function getPageContent(string $page): string {
+        $page = $page === 'home' ? 'home' : 'internal';
         $contentFilePath = __DIR__ . "/../views/$page.html";
         if (file_exists($contentFilePath)) {
             return file_get_contents($contentFilePath);

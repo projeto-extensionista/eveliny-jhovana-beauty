@@ -19,6 +19,7 @@ class Router {
     private string $notFound = '404';
 
     public function resolve(string $page = null): string {
+
         if (is_null($page)) {
             return $this->default; 
         }
