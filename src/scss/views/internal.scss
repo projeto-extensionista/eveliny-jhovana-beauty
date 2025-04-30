@@ -1,7 +1,19 @@
 .internal {
-    &__s1,
+    &__s1 {
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        h1 {
+            color: #fff;
+            font-size: 48px;
+            letter-spacing: 35%;
+        }
+    }
     &__s2,
-    &__s3 {
+    &__s3,
+    &__s4 {
         padding: 90px 0;
         .container {
             display: flex;
@@ -33,7 +45,7 @@
             }
         }
     }
-    &__s1, &__s3 {
+    &__s2, &__s4 {
         background: $primaryColor;
         &__text {
             h1,p {
@@ -41,7 +53,7 @@
             }
         }
     }
-    &__s2 {
+    &__s3 {
         background: $secondaryColor;
         &__text {
             h1,p {
