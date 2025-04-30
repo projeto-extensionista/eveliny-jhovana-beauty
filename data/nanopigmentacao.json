@@ -3,18 +3,18 @@
         "title": "Nanopigmentação"
     },
     "s2": {
-        "title": "Lorem ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
-        "image": "assets/img/penteados/s1/image.png"
+        "title": "Flow Brow",
+        "description": "A técnica Flow Brows é ummétodo inovador que combina arte e técnica para criar sobrancelhas que se adaptam perfeitamente ao seu rosto. A técnica é projetada para realçar a beleza natural, evitando o efeito artificial que muitas vezes é associado a procedimentos de sobrancelhas.",
+        "image": "assets/img/nanopigmentacao/s1/image.png"
     },
     "s3": {
-        "title": "Lorem ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
-        "image": "assets/img/penteados/s2/image.png"
+        "title": "Procedimento",
+        "description": "O procedimento é feito com muito cuidado, garantindo que cada fio seja desenhado de forma a realçar sua beleza única. Iremos preencher o necessário para te entregar uma sobrancelhas mais volumosa sem perder a naturalidade e autenticidade única da sua beleza natural.",
+        "image": "assets/img/nanopigmentacao/s2/image.png"
     },
     "s4": {
-        "title": "Lorem ipsum",
+        "title": "DURAÇÃO",
         "description": "Lorem Ipsum is simply dummy text of the printing and  typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of  type and scrambled it to make a type specimen book. It has survived not  only five centuries, but also the leap into electronic typesetting,  remaining essentially unchanged. It was popularised in the 1960s with  the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker  including versions of Lorem Ipsum.",
-        "image": "assets/img/penteados/s3/image.png"
+        "image": "assets/img/nanopigmentacao/s3/image.png"
     }
 }
