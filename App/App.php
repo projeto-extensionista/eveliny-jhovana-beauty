@@ -34,7 +34,7 @@ class App {
 
         return "<h1>Página não encontrada</h1><p>Desculpe, a página solicitada não foi encontrada.</p>";
     }
-
+ 
     private function getPageData(string $page): array {
         $contentFilePath = __DIR__ . "/../data/$page.json";
         if (file_exists($contentFilePath)) {
