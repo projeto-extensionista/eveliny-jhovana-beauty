@@ -1,17 +1,18 @@
 {
-    "files.exclude": {
-      "**/package.json": true,
-      "**/package-lock.json": true,
-      ".github/": true,
-      ".htaccess": true,
-      ".gitignore": true
-    },
-    "search.exclude": {
-      "**/package.json": true,
-      "**/package-lock.json": true,
-      ".github/": true,
-      ".htaccess": true,
-      ".gitignore": true
-    }
+  "files.exclude": {
+    "**/package.json": true,
+    "**/package-lock.json": true,
+    ".github/": true,
+    ".htaccess": true,
+    ".gitignore": true,
+    "**/*:Zone.Identifier": true
+  },
+  "search.exclude": {
+    "**/package.json": true,
+    "**/package-lock.json": true,
+    ".github/": true,
+    ".htaccess": true,
+    ".gitignore": true,
+    "**/*:Zone.Identifier": true
   }
-  
+}

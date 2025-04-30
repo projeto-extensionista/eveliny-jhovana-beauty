@@ -10,7 +10,7 @@ class App {
     }
 
     private function renderTemplate(string $page): void {
-        $template = file_get_contents(__DIR__ . '/../pages/template.html');
+        $template = file_get_contents(__DIR__ . '/../views/template.html');
         $content = $this->getPageContent($page);
         $jsonData = $this->getPageData($page);
         $output = str_replace(

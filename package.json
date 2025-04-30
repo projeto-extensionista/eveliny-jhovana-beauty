@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.php",
   "scripts": {
+    "dev": "php -S localhost:8080",
     "publish": "git add . && git pull && git commit -m \"eveliny-jhovana-beauty\" && git push"
   },
   "repository": {

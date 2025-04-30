@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-.header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
 .container {
     margin: 0 auto;
     max-width: 1120px;
@@ -19,9 +13,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: transparent;
+    border: none;
+    outline: none;
 }
 
 body {
     color: #333;
     font-family: "Montserrat";
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    padding: 10px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .container a img {
+    height: 80px;
+}
+
+.header .container div {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header .container div a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header .container div button {
+    cursor: pointer;
 }
