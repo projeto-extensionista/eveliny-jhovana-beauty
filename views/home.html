@@ -5,7 +5,8 @@
             <h1 class="home__s1__title">{{s1.title}}</h1>
             <p class="home__s1__description">{{s1.description}}</p>
             <div class="home__s1__bottom">
-                <a class="home__s1__bottom__button" href="{{s1.button.url}}" target="{{s1.button.target}}">{{s1.button.title}}</a>
+                <a class="home__s1__bottom__button" href="{{s1.button.url}}"
+                    target="{{s1.button.target}}">{{s1.button.title}}</a>
                 <div class="home__s1__bottom__social">
                     <a class="home__s1__bottom__social__item" href="{{s1.social.tiktok.url}}" target="_blank">
                         <img src="{{s1.social.tiktok.icon}}" alt="" width="28" height="28">
@@ -20,38 +21,43 @@
             </div>
         </div>
     </section>
-    
+
     <section class="home__s2">
         <div class="container">
             <h1 class="home__s2__title">{{s2.title}}</h1>
             <div class="home__s2__items js-slide">
-                <a class="home__s2__items__item" href="{{s2.item-1}}" target="_self">
-                    <span>{{s2.item-1}}</span>
-                    <img src="assets/img/home/s2/{{s2.item-1}}.jpg" alt="" width="250" height="250">
+                <a class="home__s2__items__item" href="{{s2.item-1-slug}}" target="_self">
+                    <span>{{s2.item-1-title}}</span>
+                    <img src="assets/img/home/s2/{{s2.item-1-slug}}.jpg" alt="" width="250" height="250">
                 </a>
-                <a class="home__s2__items__item" href="{{s2.item-2}}" target="_self">
-                    <span>{{s2.item-2}}</span>
-                    <img src="assets/img/home/s2/{{s2.item-2}}.jpg" alt="" width="250" height="250">
+                <a class="home__s2__items__item" href="{{s2.item-2-slug}}" target="_self">
+                    <span>{{s2.item-2-title}}</span>
+                    <img src="assets/img/home/s2/{{s2.item-2-slug}}.jpg" alt="" width="250" height="250">
                 </a>
-                <a class="home__s2__items__item" href="{{s2.item-3}}" target="_self">
-                    <span>{{s2.item-3}}</span>
-                    <img src="assets/img/home/s2/{{s2.item-3}}.jpg" alt="" width="250" height="250">
+                <a class="home__s2__items__item" href="{{s2.item-3-slug}}" target="_self">
+                    <span>{{s2.item-3-title}}</span>
+                    <img src="assets/img/home/s2/{{s2.item-3-slug}}.jpg" alt="" width="250" height="250">
                 </a>
-                <a class="home__s2__items__item" href="{{s2.item-4}}" target="_self">
-                    <span>{{s2.item-4}}</span>
-                    <img src="assets/img/home/s2/{{s2.item-4}}.jpg" alt="" width="250" height="250">
+                <a class="home__s2__items__item" href="{{s2.item-4-slug}}" target="_self">
+                    <span>{{s2.item-4-title}}</span>
+                    <img src="assets/img/home/s2/{{s2.item-4-slug}}.jpg" alt="" width="250" height="250">
                 </a>
             </div>
             <div class="home__s2__arrows">
                 <button class="home__s2__arrows__arrow js-arrow-left">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24" style="transform: scaleX(-1);">
-                        <path fill="currentColor" fill-rule="evenodd" d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414"/>
-                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24"
+                        style="transform: scaleX(-1);">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414" />
+                    </svg>
                 </button>
                 <button class="home__s2__arrows__arrow js-arrow-right">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24"><path fill="currentColor" fill-rule="evenodd" d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414" />
+                    </svg>
                 </button>
-            </div> 
+            </div>
             <script defer>
                 window.addEventListener("load", function () {
                     if (window.jQuery) {
@@ -154,12 +160,7 @@
 
     <div class="home__s6">
         <div class="container">
-            <iframe
-                width="100%"
-                height="360"
-                style="border:0"
-                loading="lazy"
-                allowfullscreen
+            <iframe width="100%" height="360" style="border:0" loading="lazy" allowfullscreen
                 referrerpolicy="no-referrer-when-downgrade"
                 src="https://www.google.com/maps?q=Eveliny Jhovana Beauty&output=embed&z=15">
             </iframe>
