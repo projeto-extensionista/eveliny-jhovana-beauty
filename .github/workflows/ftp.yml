@@ -18,6 +18,7 @@ jobs:
       - name: Sync files to FTP
         run: |
           lftp -f "
+          set ssl:verify-certificate no
           open ftp://admin@evelinyjhovanabeauty.com:password@108.179.193.140
           mirror -R ./ ./public_html
           bye
