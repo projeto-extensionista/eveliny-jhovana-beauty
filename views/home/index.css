@@ -22,24 +22,22 @@
   margin: 0;
 }
 
-.banner .container > div {
+.banner .container>div {
   display: flex;
   align-items: center;
   gap: 21px;
 }
 
-.banner .container > div > a {
+.banner .container>div>a {
   padding: 12px 24px;
   border-radius: 999;
   background: #fff;
   font-size: 24px;
 }
 
-.banner .container > div > div {
+.banner .container>div>div {
   display: flex;
   align-items: center;
   gap: 16px;
   padding: 10px;
 }
-
-
