@@ -5,10 +5,16 @@
         height: 500px;
         display: flex;
         align-items: center;
+        @media (max-width: 768px) {
+            height: 300px;
+        }
         h1 {
             color: #fff;
             font-size: 48px;
             letter-spacing: 35%;
+            @media (max-width: 768px) {
+                font-size: 24px;
+            }
         }
     }
     &__s2,
@@ -19,6 +25,9 @@
             display: flex;
             align-items: center;
             gap: 80px;
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
         }
         &__text {
             flex: 1;
@@ -27,6 +36,9 @@
                 letter-spacing: 35%;
                 margin: 0 0 40px;
                 text-transform: uppercase;
+                @media (max-width: 768px) {
+                    font-size: 22px;
+                }
             }
             p {
                 font-size: 16px;
@@ -42,11 +54,19 @@
                 height: 500px;
                 object-fit: cover;
                 object-position: center;
+                @media (max-width: 768px) {
+                    height: 250px;
+                }
             }
         }
     }
     &__s2, &__s4 {
         background: $primaryColor;
+        .container {
+            @media (max-width: 768px) {
+                flex-direction: column-reverse;
+            }
+        }
         &__text {
             h1,p {
                 color: #fff;
