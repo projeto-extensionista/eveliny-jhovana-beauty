@@ -9,9 +9,9 @@ class App {
     }
 
     private function renderTemplate(string $page): void {
-        
-        $template = file_get_contents('template.html');
-        $content = file_exists("pages/$page/index.html") ? file_get_contents("pages/$page/index.html") : '';
+
+        $template = file_get_contents('html/template.html');
+        $content = file_exists("html/pages/$page/index.html") ? file_get_contents("html/pages/$page/index.html") : '';
 
         $output = str_replace(
             ['{{page}}', '{{content}}'],
