@@ -5,7 +5,10 @@
     ".github/": true,
     ".htaccess": true,
     ".gitignore": true,
-    "**/*:Zone.Identifier": true
+    "**/*:Zone.Identifier": true,
+    "assets/css": true,
+    "**/*.min.css": true,
+    "**/*.min.css.map": true
   },
   "search.exclude": {
     "**/package.json": true,
@@ -13,6 +16,9 @@
     ".github/": true,
     ".htaccess": true,
     ".gitignore": true,
-    "**/*:Zone.Identifier": true
+    "**/*:Zone.Identifier": true,
+    "assets/css": true,
+    "**/*.min.css": true,
+    "**/*.min.css.map": true
   }
 }

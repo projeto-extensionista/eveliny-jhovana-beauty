@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.php",
   "scripts": {
-    "dev": "php -S localhost:8080",
+    "dev": "npm install && concurrently \"npx sass --watch src/scss/style.scss:assets/css/style.min.css --style=compressed\" \"php -S localhost:8080\"",
     "publish": "git add . && git pull && git commit -m \"eveliny-jhovana-beauty\" && git push"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/projeto-extensionista/eveliny-jhovana-beauty/issues"
   },
-  "homepage": "https://github.com/projeto-extensionista/eveliny-jhovana-beauty#readme"
+  "homepage": "https://github.com/projeto-extensionista/eveliny-jhovana-beauty#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
 }

@@ -1,0 +1,81 @@
+<main class="home">
+
+    <section class="home__s1" style="background-image: url({{s1.image}})">
+        <div class="container">
+            <h1 class="home__s1__title">{{s1.title}}</h1>
+            <p class="home__s1__description">{{s1.description}}</p>
+            <div class="home__s1__bottom">
+                <a class="home__s1__bottom__button" href="{{s1.button.url}}" target="{{s1.button.target}}">{{s1.button.title}}</a>
+                <div class="home__s1__bottom__social">
+                    <a class="home__s1__bottom__social__item" href="{{s1.social.whatsapp.url}}" target="_blank">
+                        <img src="{{s1.social.whatsapp.icon}}" alt="" width="28" height="28">
+                    </a>
+                    <a class="home__s1__bottom__social__item" href="{{s1.social.instagram.url}}" target="_blank">
+                        <img src="{{s1.social.instagram.icon}}" alt="" width="28" height="28">
+                    </a>
+                    <a class="home__s1__bottom__social__item" href="{{s1.social.facebook.url}}" target="_blank">
+                        <img src="{{s1.social.facebook.icon}}" alt="" width="28" height="28">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="home__s2">
+        <div class="container">
+            <h1 class="home__s2__title">{{s2.title}}</h1>
+            <div class="home__s2__items js-slide">
+                <a class="home__s2__items__item" href="{{s2.item-1}}" target="_self">
+                    <span>{{s2.item-1}}</span>
+                    <img src="assets/img/s2/{{s2.item-1}}.jpg" alt="" width="250" height="250">
+                </a>
+                <a class="home__s2__items__item" href="{{s2.item-2}}" target="_self">
+                    <span>{{s2.item-2}}</span>
+                    <img src="assets/img/s2/{{s2.item-2}}.jpg" alt="" width="250" height="250">
+                </a>
+                <a class="home__s2__items__item" href="{{s2.item-3}}" target="_self">
+                    <span>{{s2.item-3}}</span>
+                    <img src="assets/img/s2/{{s2.item-3}}.jpg" alt="" width="250" height="250">
+                </a>
+                <a class="home__s2__items__item" href="{{s2.item-4}}" target="_self">
+                    <span>{{s2.item-4}}</span>
+                    <img src="assets/img/s2/{{s2.item-4}}.jpg" alt="" width="250" height="250">
+                </a>
+            </div>
+            <div class="home__s2__arrows">
+                <button class="home__s2__arrows__arrow js-arrow-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24" style="transform: scaleX(-1);">
+                        <path fill="currentColor" fill-rule="evenodd" d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414"/>
+                      </svg>
+                </button>
+                <button class="home__s2__arrows__arrow js-arrow-right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24"><path fill="currentColor" fill-rule="evenodd" d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414"/></svg>
+                </button>
+            </div>
+            <script defer>
+                window.addEventListener("load", function () {
+                    if (window.jQuery) {
+                        $(".js-slide").slick({
+                            slidesToScroll: 1,
+                            slidesToShow: 3,
+                            arrows: true,
+                            dots: false,
+                            infinite: false,
+                            nextArrow: $(".js-arrow-right"),
+                            prevArrow: $(".js-arrow-left"),
+                            responsive: [
+                                {
+                                    breakpoint: 1023,
+                                    settings: {
+                                        slidesToShow: 1,
+                                    }
+                                }
+                            ]
+                        })
+                    }
+                });
+            </script>
+        </div>
+    </section>
+
+</main>

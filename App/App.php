@@ -23,7 +23,7 @@ class App {
     }
 
     private function getPageContent(string $page): string {
-        $contentFilePath = __DIR__ . "/../views/$page/index.html";
+        $contentFilePath = __DIR__ . "/../views/$page.html";
         if (file_exists($contentFilePath)) {
             return file_get_contents($contentFilePath);
         }
@@ -44,11 +44,20 @@ class App {
         preg_match_all('/\{\{(.*?)\}\}/', $content, $matches);
         foreach ($matches[1] as $placeholder) {
             $value = $this->getValueFromJson($data, $placeholder);
-            $content = str_replace("{{{$placeholder}}}", $value, $content);
+            if (is_array($value)) {
+                $html = '';
+                foreach ($value as $social) {
+                    $html .= "<a href=\"{$social['url']}\" target=\"_blank\"><img src=\"{$social['icon']}\" alt=\"Social Icon\"></a> ";
+                }
+                $content = str_replace("{{{$placeholder}}}", $html, $content);
+            } else {
+                $content = str_replace("{{{$placeholder}}}", $value, $content);
+            }
         }
-
+    
         return $content;
     }
+    
 
     private function getValueFromJson(array $data, string $path) {
         $keys = explode('.', $path);

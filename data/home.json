@@ -1,27 +1,33 @@
 {
-    "banner": {
-      "image": "assets/img/home-banner.png",
-      "title": "Lorem Ipsum Dolor Sit Amet",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium  mauris quis dui porta vehicula. Nam turpis nisl, scelerisque quis  molestie id, fringilla id erat. Etiam in est non.",
-      "button": {
-        "url": "#",
-        "title": "Lorem ipsum",
-        "target": "_blank"
+  "s1": {
+    "image": "assets/img/s1/banner.png",
+    "title": "Lorem Ipsum Dolor Sit Amet",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium  mauris quis dui porta vehicula. Nam turpis nisl, scelerisque quis  molestie id, fringilla id erat. Etiam in est non.",
+    "button": {
+      "url": "#",
+      "title": "Lorem ipsum",
+      "target": "_blank"
+    },
+    "social": {
+      "whatsapp": {
+        "icon": "assets/icons/icon-whatsapp.png",
+        "url": "#"
       },
-      "social": {
-        "whatsapp": {
-          "icon": "assets/icons/icon-whatsapp.png",
-          "url": "#"
-        },
-        "instagram": {
-          "icon": "assets/icons/icon-instagram.png",
-          "url": "#"
-        },
-        "facebook": {
-          "icon": "assets/icons/icon-facebook.png",
-          "url": "#"
-        }
+      "instagram": {
+        "icon": "assets/icons/icon-instagram.png",
+        "url": "#"
+      },
+      "facebook": {
+        "icon": "assets/icons/icon-facebook.png",
+        "url": "#"
       }
     }
+  },
+  "s2": {
+    "title": "Atendimentos",
+    "item-1": "nanopigmentacao",
+    "item-2": "penteados",
+    "item-3": "terapeutico",
+    "item-4": "henna"
   }
-  
+}
