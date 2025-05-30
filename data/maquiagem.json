@@ -5,18 +5,22 @@
     "s2": {
         "title": "NATURALIDADE",
         "description": "Executamos um atendimento exclusivo e personalizado para seu formato de rosto e olhos, com técnicas clássicas e atemporais que proporcionam uma maquiagem leve, natural e bonita, realçando o que você tem de mais belo, com segurança e qualidade no atendimento.",
-        "image": "assets/img/maquiagem/s1/image.png"
+        "image": "assets/img/maquiagem/s1/image.jpg"
     },
-
-
-
-
-
-
-
-
-
-
-
+    "s3": {
+        "title": "QUALIDADE E ELEGÂNCIA",
+        "description": " A maquiagem é uma forma de arte que pode transformar a aparência e a autoestima de uma pessoa. Ela pode ser usada para realçar a beleza natural, esconder imperfeições e criar looks criativos e ousados. Além disso, a maquiagem também pode ser uma forma de expressão pessoal, permitindo que cada um mostre sua individualidade e estilo.",
+        "image": "assets/img/maquiagem/s2/image.jpg"
+    },
+    "s4": {
+        "title": "SEU BRILHO",
+        "description": "Cada maquiagem que crio é pensada para realçar o que você tem de mais bonito: seu brilho único. Com técnicas personalizadas e um cuidado especial em cada detalhe, meu objetivo é valorizar sua beleza natural e fazer você se sentir ainda mais confiante e radiante. Seu brilho é o que inspira todo o meu trabalho, e estou aqui para garantir que ele seja sempre destacado.",
+        "image": "assets/img/maquiagem/s3/image.jpg"
+    },
+    "s5": {
+        "title": "CUIDADOS",
+        "description": "Nunca durma maquiada ou com cílios postiços, pois a maquiagem forma uma película que impede a pele de respirar, podendo causar espinhas e irritações; não reutilize cílios para evitar conjuntivite e alergias; use nosso lenço para remover o excesso, lave o rosto com seu sabonete (repita se necessário) até sentir a pele limpa, e no dia seguinte aplique uma máscara hidratante e mantenha-se hidratada bebendo bastante água.",
+        "image": "assets/img/maquiagem/s4/image.jpg"
+    }
 }
 
