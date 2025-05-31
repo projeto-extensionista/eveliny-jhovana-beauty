@@ -1,0 +1,25 @@
+{   
+    "s1": {
+        "title": "DESIGN COM COLORAÇÃO"
+    },
+    "s2": {
+        "title": "COLORAÇÃO",
+        "description": "A coloração de sobrancelhas é um produto de alta qualidade que pigmenta os fios e, com a diluição e cor certas, cria um efeito sombreado na pele, realçando o olhar com naturalidade e definição.",
+        "image": "assets/img/design-com-coloracao/s1/imagen.png"
+    },
+    "s3": {
+        "title": "DESIGN COM COLORAÇÃO",
+        "description": "Nutre, colore, preenche, dá volume, auxilia no crescimento saudável, proporciona brilho, pigmenta por até 45 dias nos fios e 7 dias na pele, cobre fios brancos e loiros, oferece acabamento natural e traz mais praticidade à rotina.",
+        "image": "assets/img/design-com-coloracao/s2/imagen.png"
+    },
+    "s4": {
+        "title": "INFORMAÇÕES",
+        "description": "Contraindicada para gestantes, lactantes e alérgicas à coloração; procedimento dura até 30 minutos; design dura de 21 a 45 dias e a coloração até 45 dias.",
+        "image": "assets/img/design-com-coloracao/s3/imagen.png"
+    },
+    "s5": {
+        "title": "CUIDADOS",
+        "description": "Evite lavar o rosto com água quente nas primeiras 24h, não esfregue ou coce a área, evite sol e produtos químicos, use limpeza facial suave sem álcool e hidrate para manter a pele saudável e prolongar a coloração.",
+        "image": "assets/img/design-com-coloracao/s4/imagen.png"
+    }
+}
