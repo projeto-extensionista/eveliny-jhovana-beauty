@@ -1,0 +1,20 @@
+{   
+    "s1": {
+        "title": "Lash Lifting"
+    },
+    "s2": {
+        "title": "HENNA?",
+        "description":"A henna de sobrancelha é um produto usado para colorir e dar forma às sobrancelhas de forma temporária. A henna é uma tintura natural extraída da planta Lawsonia inermis, que é conhecida por suas propriedades de tingimento.",
+        "image": "assets/img/design-com-henna/s1/image.png"
+    },
+    "s3": {
+        "title": "PROCEDIMENTO",
+        "description": "A técnica consiste na definição do desenho das sobrancelhas e no preenchimento de falhas, proporcionando um acabamento que pode variar de natural a mais marcante. A henna tem duração de 3 a 7 dias, conforme o tipo de pele, reduzindo a necessidade de maquiagem diária. A aplicação é indolor e feita de forma confortável.",
+        "image": "assets/img/design-com-henna/s2/image.png"
+    },
+    "s4": {
+        "title": "DETALHES",
+        "description": "O procedimento é indicado para todos os gêneros, porém contraindicado para gestantes, lactantes e pessoas com alergia à henna. A sessão dura até 60 minutos, com o design das sobrancelhas permanecendo visível por 21 a 45 dias e a henna, em média, por 7 dias..",
+        "image": "assets/img/design-com-henna/s3/image.png"
+    }
+}
