@@ -9,7 +9,8 @@ class Router {
         'penteados',
         'design-terapeutico',
         'design-com-henna',
-        'nanopigmentacao'
+        'nanopigmentacao',
+        'desing-com-coloracao'
     ];
 
     private string $default = 'home';
