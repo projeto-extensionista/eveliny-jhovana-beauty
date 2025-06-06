@@ -36,7 +36,18 @@
     "item-5-title": "Maquiagem",
     "item-5-slug": "maquiagem",
     "item-6-title": "Desing com Coloração",
-    "item-6-slug": "desing-com-coloracao"
+    "item-6-slug": "desing-com-coloracao",
+    "item-7-title": "Epilação Egipcia",
+    "item-7-slug": "epilacao-egipcia",
+    "item-8-title": "Lash Lifting",
+    "item-8-slug": "lash-lifting",
+    "item-9-title": "Brow lamination",
+    "item-9-slug": "brow-lamination",
+    "item-10-title": "Epilação Com Cera",
+    "item-10-slug": "epilacao-com-cera",
+    "item-11-title": "Desing Reconstrutivo",
+    "item-11-slug": "desing-reconstrutivo"
+
     
   },
   "s3": {
