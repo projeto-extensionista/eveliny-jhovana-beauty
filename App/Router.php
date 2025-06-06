@@ -9,6 +9,7 @@ class Router {
         'penteados',
         'design-terapeutico',
         'design-com-henna',
+        'maquiagem',
         'nanopigmentacao'
     ];
 
