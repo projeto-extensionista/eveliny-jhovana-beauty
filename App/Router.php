@@ -10,11 +10,12 @@ class Router {
         'design-terapeutico',
         'design-com-henna',
         'maquiagem',
-        'design-com-coloraçao',
+        'desing-com-coloracao',
         'lash-lifting',
-        'epilacao-egipcia',
-        'consultoria',
+        'epilacao-egipicia',
         'brow-lamination',
+        'epilacao-com-cera',
+        'desing-reconstrutivo',
         'nanopigmentacao'
     ];
 
