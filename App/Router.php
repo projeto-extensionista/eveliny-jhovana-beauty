@@ -9,13 +9,9 @@ class Router {
         'penteados',
         'design-terapeutico',
         'design-com-henna',
-<<<<<<< HEAD
-        'maquiagem',
-        'nanopigmentacao'
-=======
         'nanopigmentacao',
-        'desing-com-coloracao'
->>>>>>> bcc549eb4ff8e2ed4a6ceb446beba2782855b8dc
+        'desing-com-coloracao',
+        'epilacao-egipcia'
     ];
 
     private string $default = 'home';
