@@ -1,0 +1,20 @@
+{
+    "s1": {
+        "title": "Desing Reconstrutivo"
+    },
+    "s2": {
+        "title": "DESIGN RECONSTRUTIVO",
+        "description": "O Design Reconstrutivo é uma técnica avançada de design de sobrancelhas que visa corrigir assimetrias e falhas, proporcionando um formato harmônico e natural. É ideal para quem busca restaurar a forma original das sobrancelhas ou corrigir erros de procedimentos anteriores.",
+        "image": "assets/img/desing-reconstrutivo/s1/image.jpg"
+    },
+    "s3": {
+        "title": "PROCEDIMENTO",
+        "description": "O procedimento de Design Reconstrutivo envolve a análise detalhada do formato do rosto e das sobrancelhas, seguida da aplicação de técnicas específicas para corrigir falhas e assimetrias. Utilizamos ferramentas precisas e produtos de alta qualidade para garantir resultados duradouros e naturais. É um processo personalizado que leva em consideração as características únicas de cada cliente.",
+        "image": "assets/img/desing-reconstrutivo/s2/image.jpg"
+    },
+    "s4": {
+        "title": "BENEFÍCIOS",
+        "description": "O Design Reconstrutivo é indicado para todos os tipos de sobrancelhas, especialmente aquelas que passaram por procedimentos inadequados ou que apresentam falhas naturais. Os resultados podem durar de 6 a 8 semanas, dependendo do cuidado pós-procedimento. Além disso, a técnica ajuda a criar uma aparência mais simétrica e bem cuidada, elevando a autoestima e a confiança.",
+        "image": "assets/img/desing-reconstrutivo/s3/image.jpg"
+    }
+}
