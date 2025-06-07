@@ -12,7 +12,7 @@ class Router {
         'maquiagem',
         'desing-com-coloracao',
         'lash-lifting',
-        'epilacao-egipicia',
+        'epilacao-egipcia',
         'brow-lamination',
         'epilacao-com-cera',
         'desing-reconstrutivo',
