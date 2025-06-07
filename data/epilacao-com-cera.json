@@ -1,0 +1,25 @@
+{
+    "s1": {
+        "title": "Epilação com Cera"
+    },
+    "s2": {
+        "title": "EPILAÇÃO COM CERA",
+        "description": "A epilação com cera é um método eficaz de remoção de pelos que utiliza cera quente ou fria para arrancar os pelos da raiz. É uma técnica popular por proporcionar uma pele lisa e suave por um período mais longo em comparação com outros métodos, como a depilação com lâmina.",
+        "image": "assets/img/epilacao-com-cera/s1/image.jpg"
+    },
+    "s3": {
+        "title": "PROCEDIMENTO",
+        "description": "O procedimento de epilação com cera envolve a aplicação de cera quente ou fria na área desejada, seguida da colocação de uma tira de tecido ou papel sobre a cera. Após alguns segundos, a tira é puxada rapidamente na direção contrária ao crescimento dos pelos, removendo-os da raiz. É um método rápido e eficaz, ideal para áreas como pernas, axilas e virilha.",
+        "image": "assets/img/epilacao-com-cera/s2/image.jpg"
+    },
+    "s4": {
+        "title": "BENEFÍCIOS",
+        "description": "A epilação com cera é indicada para todos os tipos de pele e pelos, proporcionando resultados duradouros que podem variar de 3 a 6 semanas, dependendo do crescimento dos pelos. Além disso, a técnica ajuda a esfoliar a pele, removendo células mortas e promovendo uma aparência mais saudável e radiante.",
+        "image": "assets/img/epilacao-com-cera/s3/image.jpg"
+    },
+    "s5": {
+        "title": "CUIDADOS PÓS-PROCEDIMENTO",
+        "description": "Após a epilação com cera, é importante evitar a exposição ao sol e o uso de produtos irritantes na área depilada por pelo menos 24 horas. Recomenda-se também manter a pele hidratada e evitar banhos quentes imediatamente após o procedimento para minimizar qualquer desconforto.",
+        "image": "assets/img/epilacao-com-cera/s4/image.jpg"
+    }
+}
