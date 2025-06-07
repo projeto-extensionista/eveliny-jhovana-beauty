@@ -1,0 +1,20 @@
+{
+    "s1": {
+        "title": "Brow Lamination"
+    },
+    "s2": {
+        "title": "BROW LAMINATION",
+        "description": "A Brow Lamination é uma técnica inovadora que alisa e fixa os pelos das sobrancelhas, proporcionando um efeito de sobrancelhas mais cheias e bem definidas. É ideal para quem busca sobrancelhas com aparência mais volumosa e alinhada, sem a necessidade de tintura ou micropigmentação.",
+        "image": "assets/img/brow-lamination/s1/image.jpg"
+    },
+    "s3": {  
+        "title": "PROCEDIMENTO",
+        "description": "O procedimento de Brow Lamination envolve a aplicação de um produto específico que alisa os pelos das sobrancelhas, permitindo que sejam moldados na direção desejada. Após a aplicação, os pelos são fixados com um gel especial, garantindo que permaneçam no lugar por várias semanas. É uma técnica rápida e indolor, com resultados imediatos.",
+        "image": "assets/img/brow-lamination/s2/image.jpg"
+    },
+    "s4": {
+        "title": "BENEFÍCIOS",
+        "description": "A Brow Lamination é indicada para todos os tipos de sobrancelhas, especialmente aquelas com pelos rebeldes ou finos. Os resultados podem durar de 6 a 8 semanas, dependendo do cuidado pós-procedimento. Além disso, a técnica ajuda a criar uma aparência mais simétrica e bem cuidada, elevando a autoestima e a confiança.",
+        "image": "assets/img/brow-lamination/s3/image.jpg"
+    }
+}
