@@ -3,18 +3,18 @@
         "title": "Lash Lifting"
     },
     "s2": {
-        "title": "HENNA?",
-        "description":"A henna de sobrancelha é um produto usado para colorir e dar forma às sobrancelhas de forma temporária. A henna é uma tintura natural extraída da planta Lawsonia inermis, que é conhecida por suas propriedades de tingimento.",
-        "image": "assets/img/design-com-henna/s1/image.jpg"
+        "title": "O QUE É LASH LIFTING?",
+        "description":"O Lash Lifting é um procedimento estético que proporciona um efeito de curvatura e elevação dos cílios naturais, sem a necessidade de extensões. É uma técnica que realça o olhar, deixando os cílios mais curvados, projetados, alongados, nutridos e pretos, criando um efeito de cílios mais volumosos e saudáveis.", 
+        "image": "assets/img/lash-lifting/s1/image.jpg"
     },
     "s3": {
         "title": "PROCEDIMENTO",
-        "description": "A técnica consiste na definição do desenho das sobrancelhas e no preenchimento de falhas, proporcionando um acabamento que pode variar de natural a mais marcante. A henna tem duração de 3 a 7 dias, conforme o tipo de pele, reduzindo a necessidade de maquiagem diária. A aplicação é indolor e feita de forma confortável.",
-        "image": "assets/img/design-com-henna/s2/image.jpg"
+        "description": "O procedimento de lash lifting começa com a higienização dos cílios para remover qualquer resíduo de maquiagem e oleosidade. Em seguida, um molde de silicone é escolhido para garantir a curvatura desejada, e os cílios são cuidadosamente posicionados sobre ele. Após isso, aplica-se um gel de lifting que deixa os fios maleáveis, permitindo que sejam modelados conforme o formato escolhido. Para fixar essa curvatura, um segundo produto é aplicado, garantindo um efeito duradouro. Os cílios também recebem um pigmento que intensifica a cor e um tratamento nutritivo para fortalecer e proporcionar um aspecto saudável. Finalizando, os fios são retirados do molde e o resultado é um olhar mais expressivo e cílios com aparência natural e bem cuidados.",
+        "image": "assets/img/lash-lifting/s2/image.jpg"
     },
     "s4": {
-        "title": "DETALHES",
-        "description": "O procedimento é indicado para todos os gêneros, porém contraindicado para gestantes, lactantes e pessoas com alergia à henna. A sessão dura até 60 minutos, com o design das sobrancelhas permanecendo visível por 21 a 45 dias e a henna, em média, por 7 dias..",
-        "image": "assets/img/design-com-henna/s3/image.jpg"
+        "title": "CONTRAINDICAÇÕES E DURAÇÃO",
+        "description": "Contraindicado para gestantes, lactantes, alérgicas a esmalte, paciente oncológica, pessoas que usam roacutan ou estão passando por tratamento facial com ácido. Duração do procedimento, em média 1h30min. O efeito pós procedimento é de em média 60 dias",
+        "image": "assets/img/lash-lifting/s3/image.jpg"
     }
 }
